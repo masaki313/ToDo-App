@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: Test
+    ports:
+      - "7000:7000"
