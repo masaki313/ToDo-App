@@ -3,11 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Todo</title>
+    <title>ToDo</title>
     <link rel="stylesheet" href="/static/style.css" />
   </head>
   <body>
-    <h1>login</h1>
-    <h1>登録</h1>
+    <main class="wrap">
+      <header class="header">
+        <h1>ToDo</h1>
+      </header>
+
+      <form id="form" class="form">
+        <input id="title" placeholder="タスクを入力" autocomplete="off" />
+        <button type="submit">追加</button>
+      </form>
+
+      <ul id="list" class="list"></ul>
+    </main>
+
+    <script src="/static/app.js"></script>
   </body>
 </html>
