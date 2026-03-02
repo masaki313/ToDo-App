@@ -16,3 +16,8 @@ git commit -m "コメント"
 
 リモート(git hub)に反映
 git  push origin ブランチ名
+
+
+
+docker起動コマンド
+docker compose up --build
